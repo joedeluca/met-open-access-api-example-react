@@ -1,9 +1,8 @@
 import MetOpenAccess from "./components/MetOpenAccess";
-import About from "./components/MetOpenAccess";
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen p-24'>
+    <main className='p-6 md:p-12 flex'>
       <MetOpenAccess />
     </main>
   );
